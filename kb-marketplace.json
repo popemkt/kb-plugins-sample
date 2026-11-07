@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "name": "sample",
+  "extensions": [
+    { "name": "hello", "description": "One greeting action", "source": { "path": "extensions/hello" } },
+    { "name": "aurora", "description": "One palette action", "source": { "path": "extensions/aurora" } }
+  ]
+}
