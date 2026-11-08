@@ -22,6 +22,10 @@ export default definePlugin({
               opacity: { subtle: 0.3, soft: 0.55, vivid: 0.85 },
             },
             budget: BACKDROP_BUDGETS.canvas,
+            interactions: [
+              { cue: "pointer", does: "the bands lean toward the cursor" },
+              { cue: "editing", does: "the tide runs faster while you type" },
+            ],
             Component: TideScene,
           }),
         ),
