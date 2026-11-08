@@ -2,7 +2,8 @@
   "version": 1,
   "name": "sample",
   "extensions": [
-    { "name": "hello", "description": "One greeting action", "source": { "path": "extensions/hello" } },
-    { "name": "aurora", "description": "One palette action", "source": { "path": "extensions/aurora" } }
+    {"name": "hello", "description": "One greeting action", "source": {"path": "extensions/hello"}},
+    {"name": "aurora", "description": "One palette action", "source": {"path": "extensions/aurora"}},
+    {"name": "tide-backdrop", "description": "A page-head backdrop: a slow gradient drifting like a tide", "source": {"path": "extensions/tide-backdrop"}}
   ]
 }
