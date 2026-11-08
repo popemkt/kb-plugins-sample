@@ -1,0 +1,21 @@
+{
+  "description": "Adds one action that returns an aurora palette of three colours.",
+  "author": "popemkt",
+  "repository": "https://github.com/popemkt/kb-plugins-sample",
+  "license": "MIT",
+  "homepage": "https://github.com/popemkt/kb-plugins-sample/tree/main/extensions/aurora",
+  "capabilities": {
+    "network": {
+      "hosts": []
+    },
+    "storage": [],
+    "secrets": [],
+    "data": {
+      "reads": [],
+      "writes": []
+    },
+    "page": "none",
+    "services": [],
+    "approvals": []
+  }
+}

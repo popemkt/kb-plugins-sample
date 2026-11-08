@@ -11,5 +11,10 @@ Install `github:popemkt/kb-plugins-sample/extensions/hello@main`, or add this
 repository as marketplace `sample`. Installation never grants trust. Review the
 source and approve its closure digest through kb before running it.
 
+Each extension says what it is, who wrote it and what it reaches in
+`<name>.manifest.json` beside its entry, which kb shows before you trust it
+and includes in the digest you trust. What each field means is
+[kb's extension guidelines](https://github.com/popemkt/kb/blob/main/docs/extensions/README.md).
+
 Acceptance runs may push synthetic changes to dedicated `acceptance-*` branches.
 MIT licensed.
